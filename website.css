@@ -1,0 +1,440 @@
+*{ 
+       padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+} /********************* dellet all the margin and padding in the page and put border box for .... -webkit for late page seppot par chrom and autre moz pouur sepport par mozila  **************/
+*, *:before, *:after {
+    
+    box-sizing: inherit;
+
+}
+body{
+    overflow: inherit; /**********  overflow for dellet scroll************/
+
+}
+.first {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color:rgb(255, 255, 255)
+
+
+}
+.menu{
+display: flex;
+
+list-style: none;
+flex-wrap: wrap;
+
+}
+.menu li a{
+    text-decoration: none;
+    padding-left: 10px ;
+  color: white;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.menu li a:hover{
+    background-color : black;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+.menu li a.menu1 {
+color: rgba(177, 44, 21, 0.904);
+}
+ 
+header{
+    width: 100%;
+    height: 75vh;
+    animation: animation 10s ease-in-out infinite ;
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:10%;
+    flex-direction: column;
+    line-height: 2;
+    color: white;
+   
+
+}
+button{
+    color: white;
+    background-color: teal;
+    margin: 2%;
+    width: 150PX;
+    height: 50px;
+    border-radius: 20px;
+    border-color:teal;
+}
+button:hover{
+    background-color:  #b1e7e7;
+}
+li{
+    margin-left: 20px;
+}
+.paragraph1 .para1{
+position: absolute;
+margin: 0px auto;
+justify-content: center;
+background:#b1e7e7;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+line-height: 2;
+  width: 100%;
+  height: 20vh;
+text-align: center;
+
+
+}
+.paragraph1 p{
+    padding: 20px 20px;
+
+}
+.section-head{
+    text-align: center;
+margin-top: 200px;    
+}
+.section-head h3{
+    font-size: 34px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    line-height: 1.4em;
+}
+.section-head p{
+    margin: 15px auto 0;
+}
+.paragraph1 p span{
+    font-weight:bold;
+}
+.sect_1{
+    display: flex;
+padding: 60px;
+width: 60.33%;
+justify-content: space-around;
+
+text-align: center;
+margin: 0 auto;
+}
+.sect_1 img{
+    border-radius: 50%;
+}
+
+
+.shadow:hover{
+    background-color: white;
+    box-shadow: 10px 10px 10px rgb(224, 224, 224),-10px -10px 10px rgb(224, 224, 224);
+    padding: 30px;
+}
+.section_body2{
+    text-align: center;
+margin-top: 20px;
+line-height: 2;
+
+
+}
+.section_1{
+display: flex;   
+justify-content: space-around;
+margin :0 auto;
+text-align: center;
+padding: 55px;
+width: 70px;
+padding-left: 200px;
+}
+.realisation1 img{
+height: 400px;
+width: 900px;
+padding-left: 90px;
+}
+
+
+
+.section_body_img{
+
+    display: flex;
+    flex: auto;
+    padding-top: 30px;
+    padding: 35px;
+    width: 80px;
+    text-align: center;
+}
+.section_body_img img{
+    padding: 30px;
+}
+
+.Equipes{
+padding-top: 30px;
+text-align: center;
+padding-bottom: 30px;
+}
+
+.client-img{
+display: flex;
+justify-content: center;
+padding-top: 20px;
+}
+.client-img img{
+    width: 350px;
+    height: 350px;
+   padding: 15px;
+}
+.client-img img:hover{
+    background-color: white;
+    box-shadow: 10px 10px 10px rgb(121, 114, 114),-10px -10px 10px rgb(224, 224, 224);
+    
+
+}
+
+ .pricing{
+    grid-template-columns: 100px 50px 100px;
+}
+.pricing li {
+    list-style:circle  
+}
+.princ{
+   display: flex;
+text-align: center;
+padding: 40px;
+}
+h4{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 40px;
+    
+}
+.pricing1{
+    margin: 40px;
+}
+.pricing2{
+text-align: start;
+margin-left: 70px;}
+.pricing:hover{
+    background-color: white;
+    box-shadow: 10px 10px 10px rgb(224, 224, 224),-10px -10px 10px rgb(224, 224, 224);
+    
+}
+.pricin{
+    background-color: #b1e7e7;
+}
+.pricin:hover{
+    background-color: white;
+    box-shadow: 10px 10px 10px rgb(224, 224, 224),-10px -10px 10px rgb(224, 224, 224);
+}
+.Clés{
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+}
+.titre{
+    text-align: center;
+    padding: 40px;
+}
+.Témoignages{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    
+}
+.Témoignages .temoignages_img{
+    padding-right: 20px;
+}
+
+.section-body{
+    border-bottom: 2px solid rgb(135, 199, 163);
+    margin: 90px;
+}
+footer{
+    background-color: #b1e7e7;
+    opacity: 0px;
+    
+}
+.footer1 {
+    display: flex;
+    justify-content: space-around;
+ 
+}
+.footer1 .footer2 .img_footer{
+    display: flex;
+    width: 30px;
+    height: 40px;
+    margin-top: 30px;
+    justify-content: space-between
+
+}
+form{
+    line-height: 2;
+   
+
+
+}
+form .message1{
+    padding: 30px;
+
+}
+
+@keyframes animation {
+    0%{
+        background-image: url(img/macbook.jpg);
+    }
+    33%{
+        background-image:url(img/macbook1.jpeg) ;
+    }
+    66%{
+        background-image: url(img/keyboard.jpg);
+    }
+    100%{
+        background-image: url(img/compute.jpg);
+    }
+}
+@media (max-width:767px){
+    
+   .menu{
+font-size: 20px;
+display:inline-block ;
+
+   }
+   header .head{
+       display: flex;
+       margin: 10px;
+       text-align: center;
+   }
+   .menu li a:hover{
+       padding: 4px;
+   }
+   .paragraph1 .para1{
+       line-height: 1.5;
+       text-align: center;
+       background:  #b1e7e7 ;
+       height: 29vh;
+   }
+   .section-head
+    {
+text-align: center;  
+padding: 30px;
+}
+.section-body .sect_1{
+    display: block;
+    justify-content: center;
+    padding: 1px;
+    text-decoration: none;
+    line-height: 1.5;
+}
+.section-body .sect_1 .shadow{
+    padding-top: 40px;
+    text-align: center;
+}
+.section-body .sect_1 a{
+    text-decoration: none;
+color: teal;
+}
+.section-body .sect_1 img{
+    height: 150px;
+    width: 150px;
+}
+.section-body{
+    padding-bottom: 30px;
+}
+.section_1 {
+    display: inline;
+    padding: 20px;
+}
+.section_1 .realisation1 p {
+    text-align: center;
+    justify-items: center;      
+    padding: 40px;
+    margin: 0;  
+}
+.section_1 .realisation1{
+    padding-bottom: 0px;
+}
+
+.section_1 .realisation1 img{
+    width:400px;
+    height: 200px;
+    
+}
+.realisation1 img{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+.section_body2{
+    text-align: center;
+    padding: 40px;
+}
+
+
+
+.section_body2 .section_body_img{
+    display: block;
+    justify-content: center;
+}
+.Equipes{
+    text-align: center;
+    display: block;
+}
+
+ 
+.Equipes .client-img{
+    display: block;
+    justify-content: center;
+    padding: 40px;
+    
+}
+.Témoignages {
+    display: block;
+    text-align: center;
+    padding: 40px;
+
+}
+.princ{
+    display: block;
+    text-align: center;
+    padding: 40px;
+}
+.Clés{
+    display: block;
+justify-content: center;}
+.footer1{
+    display: block;
+    text-align: center;
+    padding-left: 30px;
+
+    
+}
+.footer2{
+    padding: 30px;
+}
+.img_footer{
+    padding-left: 40px;
+display: flex;
+justify-content: space-between;
+
+
+} 
+form{
+    padding-left: 10px;
+}
+}
